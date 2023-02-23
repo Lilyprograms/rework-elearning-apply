@@ -12,7 +12,7 @@ import Pricing from "./pages/Pricing";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <ScrollToTop />
       <Routes>
         <Route element={<HomeLayout />}>
