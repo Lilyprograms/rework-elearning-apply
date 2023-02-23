@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@font-face {
+  font-family: FredokaOne;
+  src: url("./assets/styles/FredokaOne-Regular.ttf");
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  margin: 0;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.space-top {
+  padding-top: 100px;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1500px;
+}
+.btns-primary {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 0.9rem;
+  background-color: #00afef;
+  color: #ffffff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.grids {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 100px;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+}
+.flexed1 {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* @media */
+@media (max-width: 1300px) {
+  .container {
+    width: 95%;
   }
-  to {
-    transform: rotate(360deg);
+  .grid1,
+  .grid2 {
+    gap: 40px;
+  }
+}
+@media (max-width: 992px) {
+  .grids {
+    gap: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .grid1,
+  .grid2,
+  .grids {
+    grid-template-columns: 1fr;
+  }
+  .space-top {
+    padding-top: 50px;
   }
 }
