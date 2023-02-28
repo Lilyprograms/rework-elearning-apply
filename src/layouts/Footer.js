@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/images/logo.png";
 import "../assets/styles/Footer.css";
-import { IoHeartSharp } from "react-icons/io5";
+import { IoHeartSharp, IoCallSharp, IoMailSharp } from "react-icons/io5";
+import { FaLinkedinIn, FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 
 function Footer() {
   const [date] = useState(new Date().getFullYear());
@@ -12,23 +13,39 @@ function Footer() {
         <div className="footer__contents">
           <div className="footer__content footer__content1">
             <div className="footer-content__img">
-              <Link to={"/"}>
+              <Link to="/">
                 <img src={Logo} alt="Logo" />
               </Link>
             </div>
-            <div className="footer-content__sub">
-              <h3>Address</h3>
-              <p>
-                House 5, block C, Aknaton estate, Da Akun Adawel street, off Dunamis road, by Old Federal Secretariat,
-                Durumi, Area 1, Abuja
-              </p>
+            <span className="fc__content-icon-title">Connect with us:</span>
+            <div className="fc__content-icons">
+              <a href="https://www.instagram.com/reworkacademy/">
+                <FaInstagram className="fc__content-icon" />
+              </a>
+              <a href="https://web.facebook.com/ReworkAcademy">
+                <FaFacebookF className="fc__content-icon" />
+              </a>
+              <a href="https://twitter.com/ReworkAcademy">
+                <FaTwitter className="fc__content-icon" />
+              </a>
+              <a href="https://www.linkedin.com/company/reworkacademy/">
+                <FaLinkedinIn className="fc__content-icon" />
+              </a>
             </div>
+          </div>
+          <div className="footer-content">
             <div className="footer-content__sub">
               <h3>Contact</h3>
-              <a href="tel:+234 0703 561 6981" target={"_blank"} rel="noreferrer">
-                +234 703 561 6891
-              </a>
-              <a href="mailto:academy@reworktechnologies.com">academy@reworktechnologies.com</a>
+              <div className="footer-content__contact">
+                <IoCallSharp className="fc__contact-icon" />
+                <a href="tel:+234 0703 561 6981" target={"_blank"} rel="noreferrer">
+                  +234 703 561 6891
+                </a>
+              </div>
+              <div className="footer-content__contact">
+                <IoMailSharp className="fc__contact-icon" />
+                <a href="mailto:academy@reworktechnologies.com">academy@reworktechnologies.com</a>
+              </div>
             </div>
           </div>
           <div className="footer__content footer__content2">

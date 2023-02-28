@@ -20,7 +20,7 @@ function HomeSection9() {
           </div>
           <div className="hs9--right">
             <div className="hgrid--content_img">
-              <img src={img} alt="Career Image" />
+              <img src={img} alt="Career" />
             </div>
           </div>
         </div>

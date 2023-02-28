@@ -5,8 +5,8 @@ function HomeSection4() {
   return (
     <div className="home_section4">
       <div className="hs4--content container">
-        <div className="hs4--grid grid1">
-          <div className="hs4--left">
+        <div className="hs4 container">
+          <div className="hs4--top">
             <h2>A great learning experience.</h2>
             <p>
               Rework invests in you. We support you throughout your journey with us and your career. You can pay

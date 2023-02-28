@@ -8,11 +8,11 @@ function Banner() {
       <div className="banner-content container">
         <div className="banner-left">
           <h1 className="banner-left-text">
-            <span>Begin</span> your Tech Career
+            <span>Become </span> a Highly Skilled Tech Talent
           </h1>
           <p>
-            Learn to code online, go from beginner to job ready in 9 months and connect to life-changing opportunities.
-            No degree or prior tech experience required.
+            Learn highly demanded tech skills and become a world-class tech talent, from anywhere, No experience Needed
+            to enrol.
           </p>
           <Link to="/">Apply now</Link>
         </div>

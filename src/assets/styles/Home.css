@@ -7,18 +7,19 @@
   padding-top: 100px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 150px;
+  gap: 100px;
 }
 .banner-left {
   padding: 50px 0;
 }
 .banner-left-text {
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-weight: 400;
+  /* line-height: 1.4; */
 }
 .banner-left-text span {
   background-image: url(../images/splash.svg);
-  font-size: 4.5rem;
+  font-size: 5.5rem;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -28,7 +29,7 @@
 .banner-left p {
   margin: 30px 0;
   line-height: 1.9;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   color: #444444;
 }
 .banner-left a {
@@ -71,18 +72,6 @@
 .hs2-img {
   position: relative;
 }
-/* .hs2-img::after {
-  content: "";
-  height: 100%;
-  position: absolute;
-  background-color: #00afef;
-  border: 1px solid #121b35;
-  border-radius: 5px;
-  top: -20px;
-  left: 20px;
-  right: -20px;
-  z-index: -1;
-} */
 .hs2-img img {
   width: 100%;
 }
@@ -117,7 +106,7 @@
   font-weight: 500;
   margin-top: 10px;
   color: #121b35;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 .hs3-testi-img {
   margin: 10px 0;
@@ -166,7 +155,10 @@
   background-color: #f2f8ff;
   padding: 20px 0 80px 0;
 }
-.hs4--left h2,
+.hs4 {
+  text-align: center;
+}
+.hs4--top h2,
 .h_grid--left h2,
 .hgrid--content h2 {
   font-size: 3rem;
@@ -174,9 +166,12 @@
   font-weight: 500;
   max-width: 80%;
 }
-.hs4--left p {
+.hs4--top h2 {
+  max-width: 100%;
+}
+.hs4--top p {
   line-height: 2.3;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #222222;
   margin-bottom: 30px;
 }
@@ -195,7 +190,7 @@
 }
 .hs5--grid p {
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 /* Home Section6 */
 .hs6--header {
@@ -215,7 +210,7 @@
 .h_grid--left p,
 .hgrid--content p {
   line-height: 2.3;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #222222;
   margin-bottom: 10px;
   max-width: 80%;
@@ -314,7 +309,7 @@
   .hgrid--content1 {
     padding: 20px 0;
   }
-  .hs4--left h2,
+  .hs4--top h2,
   .h_grid--left h2,
   .hgrid--content h2 {
     margin-bottom: 20px;
@@ -350,7 +345,7 @@
     text-align: center;
     margin: 50px 0;
   }
-  .hs4--left h2,
+  .hs4--top h2,
   .h_grid--left h2,
   .hgrid--content h2 {
     font-size: 2.5rem;
@@ -398,7 +393,7 @@
   .hs3--header h2 {
     font-size: 2.1rem;
   }
-  .hs4--left h2,
+  .hs4--top h2,
   .h_grid--left h2,
   .hgrid--content h2 {
     font-size: 2.1rem;

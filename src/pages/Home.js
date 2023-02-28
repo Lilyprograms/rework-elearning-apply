@@ -1,7 +1,6 @@
 import "../assets/styles/Home.css";
 import Banner from "../components/home/Banner";
 import HomeSection1 from "../components/home/HomeSection1";
-import HomeSection10 from "../components/home/HomeSection10";
 import HomeSection2 from "../components/home/HomeSection2";
 import HomeSection3 from "../components/home/HomeSection3";
 import HomeSection4 from "../components/home/HomeSection4";
@@ -24,7 +23,6 @@ function Home() {
       <HomeSection7 />
       <HomeSection8 />
       <HomeSection9 />
-      <HomeSection10 />
     </div>
   );
 }

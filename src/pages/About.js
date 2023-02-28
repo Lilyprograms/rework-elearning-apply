@@ -5,7 +5,6 @@ import AboutSect2 from "../components/about/AboutSect2";
 import WhyChooseUs from "../components/about/WhyChooseUs";
 import AboutSect4 from "../components/home/HomeSection8";
 import AboutSect5 from "../components/home/HomeSection9";
-import AboutSect6 from "../components/home/HomeSection10";
 
 function About() {
   return (
@@ -16,7 +15,6 @@ function About() {
       <WhyChooseUs />
       <AboutSect4 />
       <AboutSect5 />
-      <AboutSect6 />
     </div>
   );
 }

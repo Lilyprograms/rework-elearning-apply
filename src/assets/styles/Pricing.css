@@ -109,6 +109,45 @@
   background-color: #ffffff;
   position: absolute;
 }
+/* Pricing Section 2 */
+.PricingSection2 {
+  padding: 100px 0;
+  text-align: center;
+}
+.PS2__content {
+  width: 60%;
+  margin: 0 auto;
+}
+.PS2__content h2 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.PS2__content p {
+  line-height: 1.8;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+.PS2__content-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.PS2__content-links a {
+  text-decoration: none;
+  padding: 10px 30px;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.PS2__content-link1 {
+  border: 1px solid #00afef;
+  color: #00afef;
+}
+.PS2__content-link2 {
+  background-color: #00afef;
+  color: white;
+}
 /* @media Queries */
 @media (max-width: 768px) {
   .P__banner-content {

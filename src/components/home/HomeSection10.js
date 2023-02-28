@@ -8,7 +8,7 @@ function HomeSection10() {
         <div className="hs10--grid grids">
           <div className="hs10--left">
             <div className="hgrid--content_img">
-              <img src={img} alt="Career Image" />
+              <img src={img} alt="Career" />
             </div>
           </div>
           <div className="hs10--right">
