@@ -16,8 +16,8 @@ body {
   margin: 0;
   /* font-family: "Roboto", sans-serif; */
   font-family: "Poppins", sans-serif;
-  /* font-family: "Montserrat", sans-serif; */
-  -webkit-font-smoothing: antialiased;
+  font-family: "Montserrat", sans-serif;
+  /* -webkit-font-smoothing: antialiased; */
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
 }
@@ -56,6 +56,55 @@ body {
   display: flex;
   align-items: center;
 }
+/* Application Process */
+.ApplicationProcess {
+  padding: 10px 0;
+}
+.AP_accordion {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #efefef;
+  border-radius: 5px;
+}
+.AP_accordion.AP_active,
+.AP_accordion.AP_active button {
+  background-color: #fefefe;
+  color: #222222;
+}
+.AP__accordion-btn {
+  display: flex;
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  font-size: 1.1rem;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+.AP_btn-active {
+  border-bottom: 1px solid #dedede;
+}
+.AP__accordion-text {
+  height: 0px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  line-height: 1.9;
+  font-size: 1rem;
+}
+.AP__accordion-text.accordion-text-active {
+  height: auto;
+  overflow: auto;
+  padding: 10px 0;
+}
+.AP__Acc-icon {
+  transition: all 0.3s ease;
+}
+.AP__Acc-icon.acc-icon-active {
+  transform: rotate(180deg);
+}
 /* @media */
 @media (max-width: 1300px) {
   .container {
@@ -79,5 +128,15 @@ body {
   }
   .space-top {
     padding-top: 50px;
+  }
+}
+@media (max-width: 600px) {
+  .AP__accordion-btn {
+    font-size: 0.9rem;
+    align-items: flex-start;
+  }
+  .AP_accordion-btn-text {
+    width: 90%;
+    text-align: left;
   }
 }

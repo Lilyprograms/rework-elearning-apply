@@ -65,7 +65,7 @@
   text-align: center;
 }
 .P__sect1-grid1-text2 {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .P__sect1-grid1-text2 h2 {
   color: #ffa41d;
@@ -109,13 +109,33 @@
   background-color: #ffffff;
   position: absolute;
 }
+.P_sect1-grid-card {
+  text-align: left;
+  border-top: 1px solid #dedede;
+  padding: 10px;
+  margin-top: 10px;
+}
+.P_sect1-flexed {
+  display: flex;
+  justify-content: space-between;
+}
+.P_sect1-flexed:not(:nth-last-child(1)) {
+  margin-bottom: 20px;
+}
+.P_sect1-flexed p:first-of-type {
+  display: flex;
+  align-items: center;
+}
+.P_sect1-flexed-icon {
+  margin-right: 5px;
+}
 /* Pricing Section 2 */
 .PricingSection2 {
   padding: 100px 0;
   text-align: center;
 }
 .PS2__content {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
 }
 .PS2__content h2 {

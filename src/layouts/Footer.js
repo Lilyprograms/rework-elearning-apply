@@ -52,10 +52,10 @@ function Footer() {
             <h3>Courses</h3>
             <ul className="footer-content__list">
               <li>
-                <Link to={"/courses/front-end-development"}>Frontend Development</Link>
+                <Link to="/courses/front-end-development">Frontend Development</Link>
               </li>
               <li>
-                <Link to={"/course/full-stack-web-development-nodejs"}>Full Stack Development with Node JS</Link>
+                <Link to="/courses/full-stack-web-development-nodejs">Full Stack Development with Node JS</Link>
               </li>
             </ul>
           </div>
@@ -71,7 +71,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <Link to={"/contact-us"}>Contact Us</Link>
+                <Link to="/contact-us">Contact Us</Link>
               </li>
             </ul>
           </div>

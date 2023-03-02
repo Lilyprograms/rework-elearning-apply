@@ -251,6 +251,7 @@
 }
 .hs8--header {
   margin-bottom: 30px;
+  text-align: center;
 }
 .hs8--header h3 {
   font-size: 2.5rem;
@@ -276,6 +277,10 @@
   font-weight: 500;
   font-size: 1.1rem;
   margin-left: 20px;
+}
+.hs8--aplicationProcess {
+  width: 70%;
+  margin: 0 auto;
 }
 /* @media */
 @media (max-width: 1300px) {
@@ -329,6 +334,9 @@
   .home_section7 {
     margin-top: 50px;
   }
+  .hs8--aplicationProcess {
+    width: 85%;
+  }
 }
 @media (max-width: 768px) {
   .hs1--content {
@@ -377,6 +385,10 @@
   .hs8--hit p {
     font-size: 0.9rem;
     margin-left: 10px;
+  }
+  .hs8--aplicationProcess {
+    width: 95%;
+    padding-top: 30px;
   }
 }
 @media (max-width: 600px) {
