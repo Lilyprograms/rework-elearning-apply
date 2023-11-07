@@ -1,0 +1,29 @@
+/* Error Page */
+.error__page {
+  min-height: calc(100vh - 80px);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.error_page-content img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+.error_page-content a {
+  margin: 20px 0;
+  padding: 10px 40px;
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: #00afef;
+  color: #ffffff;
+  display: inline-block;
+  border-radius: 5px;
+}
+@media (max-width: 500px) {
+  .error_page-content img {
+    width: 100%;
+  }
+}

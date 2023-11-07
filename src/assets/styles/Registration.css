@@ -1,0 +1,238 @@
+/* Registration Form */
+.reg__form-container {
+  min-height: calc(100vh - 59px);
+  /* background-image: url(../images/blob.svg); */
+  background-color: #fafafa;
+  background-size: cover;
+  padding: 10px 0;
+  padding-bottom: 40px;
+}
+.reg__form-header {
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+.reg__form-header h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.reg__form {
+  width: 40%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(220, 220, 220, 0.5);
+}
+.reg__form-control {
+  margin-bottom: 15px;
+}
+.reg__form-sub {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.reg__form-control label {
+  font-size: 1rem;
+  margin-bottom: 3px;
+  display: block;
+}
+.reg__form-control input,
+.reg__form-control select,
+.reg__form-control textarea {
+  display: block;
+  width: 100%;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  padding: 12px 5px;
+  outline: none;
+}
+.reg__form-control textarea {
+  height: 70px;
+}
+.form_error {
+  border-color: #ea6a3e !important;
+}
+.reg__form-control input:focus {
+  outline: 1px solid #00afef;
+}
+.reg__terms {
+  margin: 20px 0;
+}
+.reg__terms p {
+  font-size: 0.75rem;
+}
+.reg__terms p a {
+  color: #ffa41d;
+}
+.reg__form-control p {
+  font-size: 1rem;
+}
+.reg__form-control span,
+.error_msg,
+.expiredcode_msg {
+  font-size: 0.9rem;
+  color: #ea6a3e;
+}
+.expiredcode_msg {
+  margin: 10px 0;
+  text-align: center;
+}
+.reg__form-btn button {
+  display: inline-block;
+  padding: 12px 40px;
+  font-size: 1rem;
+  background-color: #00afef;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.reg__form-create-acc {
+  text-align: center;
+  margin: 20px 0;
+}
+.reg__form-create-acc p {
+  color: #222222;
+}
+.reg__form-create-acc p a {
+  color: #ffa41d;
+}
+.otp_verification {
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+.otp_verification button {
+  cursor: pointer;
+  color: #00afef;
+  text-decoration: underline;
+  background: none;
+  border: none;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+.otp_verification button:hover {
+  color: #0096cd;
+}
+/* Reg Success */
+.reg__success {
+  text-align: center;
+  width: 40%;
+  margin: 50px auto;
+  padding: 30px 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.reg__success h2 {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 35px;
+}
+.reg__success-img {
+  font-size: 5rem;
+  margin: 20px 0;
+  color: #00afef;
+}
+.reg__success p {
+  font-size: 1rem;
+  margin: 10px 0;
+  line-height: 1.7;
+}
+.reg__success a {
+  margin: 20px 0;
+  text-decoration: none;
+  color: #00afef;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 1px solid #00afef;
+  display: inline-block;
+}
+.err_form_msg {
+  position: fixed;
+  top: 0;
+  background-color: #0096cd;
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  padding: 25px;
+  font-size: 16px;
+  left: 0;
+  right: 0;
+}
+.err_form_msg_btn {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 25px;
+  color: #ffffff;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.form-spinner {
+  font-size: 22px;
+  animation: spinner 1s infinite linear;
+}
+@keyframes spinner {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* @media */
+@media (max-width: 1300px) {
+  .reg__form {
+    width: 85%;
+  }
+}
+@media (max-width: 1024px) {
+  .reg__success {
+    width: 80%;
+  }
+}
+@media (max-width: 830px) {
+  .reg__form {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .reg__form-sub {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+  }
+  .reg__success {
+    width: 90%;
+  }
+  .reg__success h2 {
+    font-size: 1.3rem;
+  }
+  .reg__form-CD-img {
+    display: none;
+  }
+}
+@media (max-width: 650px) {
+  .reg__form-container {
+    background-image: none;
+    background-color: #fafafa;
+  }
+  .reg__form {
+    width: 95%;
+    padding: 5px;
+    box-shadow: none;
+  }
+  .reg__form-control label {
+    font-size: 0.9rem;
+  }
+  .reg__form-create-acc p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 426px) {
+  .reg__form-btn button {
+    display: block;
+    width: 100%;
+  }
+}

@@ -1,0 +1,25 @@
+.form__PD-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.reg__form-header-img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+@media (max-width: 1024px) {
+  .form__PD-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+  }
+  .form__PD-grid-img {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .form__PD-grid {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
