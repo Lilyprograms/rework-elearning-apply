@@ -25,7 +25,7 @@ function DataProvider({ children }) {
     if (isLoggedIn) {
       setVerifyEmail(isLoggedIn);
     }
-  }, [isLoggedIn, verifyEmail]);
+  }, []);
 
   const url = "https://reworkacademy.co/app/v2";
   return (
