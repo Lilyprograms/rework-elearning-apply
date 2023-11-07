@@ -1,7 +1,7 @@
 /* Registration Form */
 .reg__form-container {
   min-height: calc(100vh - 59px);
-  /* background-image: url(../images/blob.svg); */
+  background-image: url(../images/blob.svg);
   background-color: #fafafa;
   background-size: cover;
   padding: 10px 0;
