@@ -1,6 +1,6 @@
 .portalPageContainer {
   min-height: calc(100vh - 59px);
-  background-image: url(../images/blob.svg);
+  background-image: url(../../images/blob.svg);
   background-size: cover;
   padding-top: 70px;
 }

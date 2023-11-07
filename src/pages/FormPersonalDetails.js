@@ -2,7 +2,7 @@ import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { AllContext } from "../contexts/DataContext";
-import ApplyImg from "../assets/images/register-img.png";
+import ApplyImg from "../images/register-img.png";
 import { IoReloadSharp } from "react-icons/io5";
 import "../assets/styles/PersonalDetails.css";
 

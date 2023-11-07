@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../assets/images/Rework-Academy-Logo.png";
+import Logo from "../images/Rework-Academy-Logo.png";
 import { IoMenuSharp, IoCloseSharp } from "react-icons/io5";
 import "../assets/styles/Nav.css";
 import { AllContext } from "../contexts/DataContext";

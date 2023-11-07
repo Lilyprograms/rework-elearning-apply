@@ -1,5 +1,5 @@
 import "../assets/styles/PortalPage.css";
-import img from "../assets/images/Spreadsheets.svg";
+import img from "../images/Spreadsheets.svg";
 
 export const PortalPage = () => {
   return (
